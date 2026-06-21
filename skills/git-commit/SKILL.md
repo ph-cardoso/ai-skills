@@ -1,8 +1,7 @@
 ---
 name: git-commit
-description: Enforces commit and push discipline for AI-assisted git work: never auto-commit or auto-push without a direct command, always ask when in doubt, split changes into one commit per feature/domain/goal, and format every commit as a Conventional Commit (Angular variant) in English. Use when the user says "commit this", "commit the changes", "push", "push these", "split into commits", or any phrase containing the literal verbs "commit" or "push". Also use proactively before staging any modified files, or whenever the agent considers writing to git history. Do NOT use for reading git state like status/diff/log, for branch operations, rebases, cherry-picks, or PR creation — those are out of scope.
+description: Commit and push discipline for AI-assisted git work: never auto-commit/auto-push without a direct command, split changes one commit per feature/domain/goal, format as Conventional Commits (Angular) in English. Use when the user says "commit this", "commit the changes", "push", "push these", "split into commits", or any phrase containing the literal verb "commit" or "push". Do NOT use for read-only git state (status/diff/log), branch ops, rebases, cherry-picks, or PR creation.
 license: MIT
-compatibility: opencode
 metadata:
   author: ph-cardoso
   version: 0.1.0
