@@ -1,7 +1,7 @@
 ---
 name: write-a-skill
 description: Design, write, evaluate, and evolve agent skills that work with OpenCode and any Agent-Skills-compatible client. Walks the full lifecycle — discovery interview, architecture, drafting, structural validation, trigger testing, qualitative review, and iteration from real use. Use whenever the user says "create a skill", "write a skill", "build a SKILL.md", "turn this into a skill", "turn this workflow into a skill", "improve this skill", "review my skill", "test this skill", "why isn't my skill triggering", mentions skill frontmatter, progressive disclosure, skill anatomy, or wants to package domain knowledge, a repeatable workflow, or a multi-step procedure into a reusable skill folder. Also use proactively when the user pastes a draft SKILL.md or describes a workflow they keep re-explaining to the agent. Do NOT use for editing opencode's own configuration (opencode.json, .opencode/) — that is config work, use the customize-opencode skill instead.
-license: CC-BY-4.0
+license: MIT
 compatibility: opencode
 metadata:
   author: ph-cardoso
