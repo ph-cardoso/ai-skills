@@ -11,7 +11,7 @@ Personal collection of skills developed for use with AI coding agents. Each skil
 
 ## Compatibility
 
-Built for [OpenCode](https://opencode.ai) and any agent client that supports the [Agent Skills](https://github.com/anthropics/agent-skills) format.
+Tested for [OpenCode](https://opencode.ai). Will probably work with any agent client that supports the [Agent Skills](https://agentskills.io) format.
 
 ## Structure
 
